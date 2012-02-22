@@ -20,7 +20,7 @@ The application is available with a PHP or Java services:
 - The Java back-end will be available soon.
 - The Perl back-end is in api-perl directory, which is using [Mojolicious](http://mojolicio.us) Web framework, to run perl backend you need to install Mojo framework first as following:
    
-1. On Unix/Linux just run :
+. On Unix/Linux just run :
 	
 > sudo sh -c "curl -L cpanmin.us | perl - Mojolicious"
 
@@ -28,13 +28,13 @@ The application is available with a PHP or Java services:
 
 > cpan Mojolicious
 
-2. Install DBIx::Simple module using cpan or cpanm
+. Install DBIx::Simple module using cpan or cpanm
 
 > cpan DBIx::Simple
 
-4. Cd to project directory
-3. Run 
+. Cd to project directory
+. Run 
 
 > morbo -v api-perl/backbone-directory.pl	
 
-5. Open http://localhost:3000 in browser
+. Open http://localhost:3000 in browser
